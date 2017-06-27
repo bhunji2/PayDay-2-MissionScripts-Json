@@ -1,0 +1,21 @@
+//Election Day - 選舉日(Election Day)
+{
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"mt_art": {
+		"file": "mt_art/mt_art"
+	},
+	"occluder": {
+		"file": "occluder/occluder"
+	},
+	"pc_only": {
+		"file": "pc_only/pc_only"
+	},
+	"shadow_units": {
+		"file": "shadow_units/shadow_units"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

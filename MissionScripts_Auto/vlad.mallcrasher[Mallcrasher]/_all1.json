@@ -1,0 +1,18 @@
+//Mallcrasher - 商場破壞者(Mallcrasher)
+{
+	"ed3_world": {
+		"file": "ed3_world/ed3_world"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"mission_turf_war": {
+		"file": "mission_turf_war/mission_turf_war"
+	},
+	"pc_only": {
+		"file": "pc_only/pc_only"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

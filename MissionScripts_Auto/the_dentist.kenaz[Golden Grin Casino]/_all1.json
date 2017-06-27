@@ -1,0 +1,21 @@
+//Golden Grin Casino - 大賭場劫案(Golden Grin Casino)
+{
+	"cover_points": {
+		"file": "cover_points/cover_points"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"level_art": {
+		"file": "level_art/level_art"
+	},
+	"lights_only": {
+		"file": "lights_only/lights_only"
+	},
+	"occluders": {
+		"file": "occluders/occluders"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

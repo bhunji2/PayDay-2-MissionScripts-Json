@@ -1,0 +1,1299 @@
+//Jewelry Store - 珠寶店(Jewelry Store)
+{
+	"activate_on_parsed": false,
+	"elements": [ {
+		"class": "MissionScriptElement",
+		"editor_name": "startup",
+		"id": 103810,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103811
+			}, {
+				"delay": 0,
+				"id": 103814
+			}, {
+				"delay": 0,
+				"id": 103815
+			}, {
+				"delay": 0,
+				"id": 103816
+			}, {
+				"delay": 0,
+				"id": 103818
+			}, {
+				"delay": 0,
+				"id": 103817
+			}, {
+				"delay": 0,
+				"id": 103819
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_063",
+		"id": 103811,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(550, 3275, 300)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [ {
+				"id": 1,
+				"name": "run_sequence",
+				"notify_unit_id": 103632,
+				"notify_unit_sequence": "close",
+				"time": 0
+			}, {
+				"id": 2,
+				"name": "run_sequence",
+				"notify_unit_id": 103633,
+				"notify_unit_sequence": "close",
+				"time": 0
+			}, {
+				"id": 3,
+				"name": "run_sequence",
+				"notify_unit_id": 100257,
+				"notify_unit_sequence": "hide",
+				"time": 0
+			}, {
+				"id": 4,
+				"name": "run_sequence",
+				"notify_unit_id": 103191,
+				"notify_unit_sequence": "hide",
+				"time": 0
+			}, {
+				"id": 5,
+				"name": "run_sequence",
+				"notify_unit_id": 102590,
+				"notify_unit_sequence": "hidden",
+				"time": 0
+			}, {
+				"id": 6,
+				"name": "run_sequence",
+				"notify_unit_id": 103614,
+				"notify_unit_sequence": "light_off",
+				"time": 0
+			}, {
+				"id": 7,
+				"name": "run_sequence",
+				"notify_unit_id": 103613,
+				"notify_unit_sequence": "light_off",
+				"time": 0
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementDisableUnit",
+		"editor_name": "func_disable_unit_014",
+		"id": 103814,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(350, 3175, 300)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"unit_ids": [ 101558, 102348, 102347 ]
+		}
+	}, {
+		"class": "ElementEnableUnit",
+		"editor_name": "func_enable_unit_044",
+		"id": 103815,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(350, 3300, 300)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"unit_ids": []
+		}
+	}, {
+		"class": "ElementPlayerSpawner",
+		"editor_name": "point_spawn_player_005",
+		"id": 103816,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1475, 5225, 30.9999)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "standard",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementPlayerSpawner",
+		"editor_name": "point_spawn_player_006",
+		"id": 103817,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1575, 5225, 30.9999)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "standard",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementPlayerSpawner",
+		"editor_name": "point_spawn_player_007",
+		"id": 103818,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1500, 5400, 30.9999)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "standard",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementPlayerSpawner",
+		"editor_name": "point_spawn_player_008",
+		"id": 103819,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1350, 5400, 30.9999)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "standard",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "playersSpawned",
+		"id": 103820,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 500,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 1002.6699829102,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103821
+			}, {
+				"delay": 0,
+				"id": 103826
+			}, {
+				"delay": 0,
+				"id": 103825
+			}, {
+				"delay": 0,
+				"id": 102710
+			} ],
+			"position": "Vector3(1475, 5325, 350.925)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 500
+		}
+	}, {
+		"class": "ElementDebug",
+		"editor_name": "point_debug_039",
+		"id": 103821,
+		"module": "CoreElementDebug",
+		"values": {
+			"as_subtitle": false,
+			"base_delay": 0,
+			"debug_string": "spawned",
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"show_instigator": false,
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_059",
+		"id": 103825,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/characters/enemies/gangster1/gangster1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103827
+			} ],
+			"participate_to_group_ai": true,
+			"position": "Vector3(1327, 3919, 25)",
+			"rotation": "Rotation(-44.9999, 0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_060",
+		"id": 103826,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/characters/enemies/gangster4/gangster4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [],
+			"participate_to_group_ai": true,
+			"position": "Vector3(1575, 3975, 25)",
+			"rotation": "Rotation(44.9999, -0, -0)",
+			"spawn_action": "so_apartment_point",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_094",
+		"id": 103827,
+		"values": {
+			"SO_access": "132",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": 7,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(1327, 3919, 25)",
+			"repeatable": false,
+			"rotation": "Rotation(-44.9999, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1550, 3925, 25)",
+			"so_action": "so_thug_idle_standing",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_004",
+		"id": 103829,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 500,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 500,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103833
+			} ],
+			"position": "Vector3(1428, 4396, 25)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 500
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_064",
+		"id": 103833,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1325, 4250, 25)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "playersNearCar",
+		"id": 103834,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 1463.9000244141,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 893.13397216797,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103835
+			} ],
+			"position": "Vector3(0, 3925, 125)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 1193.1800537109
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_007",
+		"id": 103835,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 2,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103837
+			}, {
+				"delay": 0,
+				"id": 103839
+			}, {
+				"delay": 1,
+				"id": 103856
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequenceTrigger",
+		"editor_name": "func_sequence_trigger_052",
+		"id": 103836,
+		"module": "CoreElementUnitSequenceTrigger",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 2,
+				"id": 103835
+			} ],
+			"sequence_list": [ {
+				"guis_id": 1,
+				"sequence": "done_car4_follow",
+				"unit_id": 103841
+			} ],
+			"trigger_times": 1
+		}
+	}, {
+		"class": "ElementDebug",
+		"editor_name": "point_debug_040",
+		"id": 103837,
+		"module": "CoreElementDebug",
+		"values": {
+			"as_subtitle": false,
+			"base_delay": 0,
+			"debug_string": "we are here",
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"show_instigator": false,
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_061",
+		"id": 103838,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/characters/enemies/gangster4/gangster4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103840
+			}, {
+				"delay": 0,
+				"id": 102070
+			} ],
+			"participate_to_group_ai": true,
+			"position": "Vector3(-659, 3664, 25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"spawn_action": "cop_car_exit_to_rifle_combat_front_r",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "spawnFromCar",
+		"id": 103839,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103838
+			}, {
+				"delay": 0.25,
+				"id": 103831
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_065",
+		"id": 103840,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-250, 3825, 218.438)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAIAttention",
+		"editor_name": "ai_attention_007",
+		"id": 103843,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103848
+			}, {
+				"delay": 0,
+				"id": 103849
+			} ],
+			"operation": "override",
+			"override": "pl_enemy_cur_peaceful",
+			"position": "Vector3(1452, 5225, 543)",
+			"preset": "pl_enemy_cbt",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_014",
+		"id": 103844,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 175,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 775.17297363281,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103843
+			} ],
+			"position": "Vector3(1352, 5420, 368)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 130
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_018",
+		"id": 103845,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 175,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 775.17297363281,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103843
+			} ],
+			"position": "Vector3(1517, 5452, 368)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 130
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_019",
+		"id": 103846,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 175,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 775.17297363281,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103843
+			} ],
+			"position": "Vector3(1582, 5236, 368)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 130
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_020",
+		"id": 103847,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 175,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 775.17297363281,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103843
+			} ],
+			"position": "Vector3(1452, 5225, 368)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 130
+		}
+	}, {
+		"class": "ElementDebug",
+		"editor_name": "point_debug_041",
+		"id": 103848,
+		"module": "CoreElementDebug",
+		"values": {
+			"as_subtitle": false,
+			"base_delay": 0,
+			"debug_string": "triggered attention",
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"show_instigator": false,
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAIAttention",
+		"editor_name": "ai_attention_008",
+		"id": 103849,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103850
+			} ],
+			"operation": "override",
+			"override": "pl_enemy_cur_peaceful",
+			"position": "Vector3(1450, 5125, 550)",
+			"preset": "pl_enemy_sneak",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementDebug",
+		"editor_name": "point_debug_042",
+		"id": 103850,
+		"module": "CoreElementDebug",
+		"values": {
+			"as_subtitle": false,
+			"base_delay": 0,
+			"debug_string": "attenction2",
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"show_instigator": false,
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_062",
+		"id": 103831,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/characters/enemies/gangster4/gangster4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103832
+			}, {
+				"delay": 0,
+				"id": 103921
+			} ],
+			"participate_to_group_ai": true,
+			"position": "Vector3(-575, 4075, 25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"spawn_action": "cop_car_exit_to_rifle_combat_front_l",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_066",
+		"id": 103832,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-250, 3925, 225)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "PlayerLootCarEnters",
+		"id": 103851,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(300, 3650, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequenceTrigger",
+		"editor_name": "doneContinue1",
+		"id": 103852,
+		"module": "CoreElementUnitSequenceTrigger",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103853
+			} ],
+			"sequence_list": [ {
+				"guis_id": 1,
+				"sequence": "done_car1_continue",
+				"unit_id": 103842
+			} ],
+			"trigger_times": 1
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "follow4",
+		"id": 103853,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(300, 3500, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequenceTrigger",
+		"editor_name": "doneFollow4",
+		"id": 103855,
+		"module": "CoreElementUnitSequenceTrigger",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103857
+			} ],
+			"sequence_list": [ {
+				"guis_id": 1,
+				"sequence": "done_car4_follow",
+				"unit_id": 103842
+			} ],
+			"trigger_times": 1
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "playerLootCarDelay",
+		"id": 103856,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103851
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "spawnPlayerBuddy",
+		"id": 103857,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_067",
+		"id": 103858,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-125, 3425, 300)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAIGraph",
+		"editor_name": "ai_graph_004",
+		"id": 102709,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"graph_ids": [ 97, 98 ],
+			"on_executed": [],
+			"operation": "forbid_access",
+			"position": "Vector3(250, 4050, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "playersSpawned",
+		"id": 102710,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102709
+			}, {
+				"delay": 0,
+				"id": 103880
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_095",
+		"id": 102711,
+		"values": {
+			"SO_access": "1",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": 7,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(225, 3000, 25)",
+			"repeatable": false,
+			"rotation": "Rotation(-180, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(225, 2975, 25)",
+			"so_action": "so_walk_talking_phone_loop",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjectiveTrigger",
+		"editor_name": "openDoor",
+		"id": 103860,
+		"values": {
+			"base_delay": 0,
+			"elements": [],
+			"enabled": true,
+			"event": "anim_start",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103861
+			} ],
+			"position": "Vector3(175, 3275, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "openDoor",
+		"id": 103861,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103865
+			} ],
+			"position": "Vector3(150, 3175, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "spawnGold",
+		"id": 103865,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(75, 3175, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "openBackDoorForLoot",
+		"id": 103870,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-750, 3775, 225)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequenceTrigger",
+		"editor_name": "pickedUpLoot",
+		"id": 103871,
+		"module": "CoreElementUnitSequenceTrigger",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103870
+			}, {
+				"delay": 0,
+				"id": 103879
+			} ],
+			"sequence_list": [ {
+				"guis_id": 1,
+				"sequence": "none",
+				"unit_id": 103864
+			}, {
+				"guis_id": 2,
+				"sequence": "none",
+				"unit_id": 103863
+			}, {
+				"guis_id": 3,
+				"sequence": "none",
+				"unit_id": 103862
+			} ],
+			"trigger_times": 1
+		}
+	}, {
+		"class": "ElementUnitSequenceTrigger",
+		"editor_name": "func_sequence_trigger_053",
+		"id": 103872,
+		"module": "CoreElementUnitSequenceTrigger",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103873
+			}, {
+				"delay": 0,
+				"id": 103874
+			}, {
+				"delay": 0,
+				"id": 103875
+			} ],
+			"sequence_list": [ {
+				"guis_id": 1,
+				"sequence": "unload",
+				"unit_id": 103866
+			} ],
+			"trigger_times": 3
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "1",
+		"id": 103873,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 1,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103876
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "2",
+		"id": 103874,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 2,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103877
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "3",
+		"id": 103875,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 3,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103878
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_068",
+		"id": 103876,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-825, 3900, 225)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_069",
+		"id": 103877,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-875, 3900, 225)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_070",
+		"id": 103878,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-925, 3900, 225)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_096",
+		"id": 103879,
+		"values": {
+			"SO_access": "132",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": 7,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(-775, 3700, 25)",
+			"repeatable": false,
+			"rotation": "Rotation(-90, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(-775, 3700, 25)",
+			"so_action": "so_knock_on_door",
+			"spawn_instigator_ids": [ 103838 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_071",
+		"id": 103880,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(175, 4125, 125)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_list": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_098",
+		"id": 102070,
+		"values": {
+			"SO_access": "4",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": 7,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(-366, 3767, 25.0001)",
+			"repeatable": false,
+			"rotation": "Rotation(-90, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(-375, 3750, 25.0001)",
+			"so_action": "so_stand_thug_idle",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_099",
+		"id": 103921,
+		"values": {
+			"SO_access": "132",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": 7,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(-300, 4025, 25.0004)",
+			"repeatable": false,
+			"rotation": "Rotation(-90, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(-350, 4025, 25.0001)",
+			"so_action": "so_thug_idle_lean_bwd",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	} ],
+	"instances": []
+}

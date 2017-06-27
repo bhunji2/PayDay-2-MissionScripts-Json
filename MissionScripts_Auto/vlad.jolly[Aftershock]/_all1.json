@@ -1,0 +1,30 @@
+//Aftershock - 震後餘生(Aftershock)
+{
+	"backdrop": {
+		"file": "backdrop/backdrop"
+	},
+	"collision_2": {
+		"file": "collision_2/collision_2"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"graffiti_2": {
+		"file": "graffiti_2/graffiti_2"
+	},
+	"jason_mkp": {
+		"file": "jason_mkp/jason_mkp"
+	},
+	"lights": {
+		"file": "lights/lights"
+	},
+	"rob_geo": {
+		"file": "rob_geo/rob_geo"
+	},
+	"veh_collision": {
+		"file": "veh_collision/veh_collision"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

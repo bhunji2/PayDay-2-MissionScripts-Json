@@ -1,0 +1,27 @@
+//Safe House Raid - 安全屋偷襲 (Safe House Raid)
+{
+	"art": {
+		"file": "art/art"
+	},
+	"art2": {
+		"file": "art2/art2"
+	},
+	"art3": {
+		"file": "art3/art3"
+	},
+	"art4": {
+		"file": "art4/art4"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"godrays": {
+		"file": "godrays/godrays"
+	},
+	"killhouse": {
+		"file": "killhouse/killhouse"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

@@ -1,0 +1,15 @@
+//Art Gallery - 藝廊(Art Gallery)
+{
+	"background": {
+		"file": "background/background"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"pc_only": {
+		"file": "pc_only/pc_only"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

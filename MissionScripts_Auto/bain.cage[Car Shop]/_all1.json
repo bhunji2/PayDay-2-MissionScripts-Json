@@ -1,0 +1,18 @@
+//Car Shop - 車店(Car Shop)
+{
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"facade": {
+		"file": "facade/facade"
+	},
+	"temp_art": {
+		"file": "temp_art/temp_art"
+	},
+	"tunnel": {
+		"file": "tunnel/tunnel"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

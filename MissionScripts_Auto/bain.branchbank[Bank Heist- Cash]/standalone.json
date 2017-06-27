@@ -1,0 +1,56 @@
+//銀行劫案：現金(Bank Heist:Cash)
+{
+	"activate_on_parsed": true,
+	"elements": [ {
+		"class": "MissionScriptElement",
+		"editor_name": "startup",
+		"id": 100918,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100923
+			}, {
+				"delay": 0,
+				"id": 100922
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "func_execute_in_other_mission_001",
+		"id": 100922,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100925
+			} ],
+			"position": "Vector3(-1800, -300, 2000)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementActivateScript",
+		"editor_name": "func_activate_script_001",
+		"id": 100923,
+		"module": "CoreElementActivateScript",
+		"values": {
+			"activate_script": "default",
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(-2000, -300, 2000)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	} ],
+	"instances": []
+}
