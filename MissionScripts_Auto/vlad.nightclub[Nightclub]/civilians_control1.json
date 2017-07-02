@@ -1,0 +1,6657 @@
+//Nightclub - 夜總會狂歡(Night Club)
+{
+	"activate_on_parsed": false,
+	"elements": [ {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_001",
+		"id": 102010,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1255.08, -4103.77, 25)",
+			"rotation": "Rotation(54.9999, -0, -0)",
+			"state": "cm_sp_smoking_left1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_002",
+		"id": 102061,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1186, -4103, 25)",
+			"rotation": "Rotation(-84.9999, 0, -0)",
+			"state": "cm_sp_standing_talk1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_004",
+		"id": 102090,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1357, -4049, 25)",
+			"rotation": "Rotation(67.9999, -0, -0)",
+			"state": "cm_sp_smoking_right1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_005",
+		"id": 102089,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1847, -4074, 25)",
+			"rotation": "Rotation(67, -0, -0)",
+			"state": "cm_sp_smoking_left1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_006",
+		"id": 102091,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2850, -4332, 425)",
+			"rotation": "Rotation(-3.41509e-006, 0, -0)",
+			"state": "cm_sp_lean_wall1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_001",
+		"id": 100076,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1273, -4034, 25)",
+			"rotation": "Rotation(-44.9999, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_002",
+		"id": 102177,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1787, -4062, 25)",
+			"rotation": "Rotation(-164, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_003",
+		"id": 102178,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1945, -4032, 25)",
+			"rotation": "Rotation(106, -0, -0)",
+			"state": "cf_sp_sms_phone_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_004",
+		"id": 102179,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(902, -4290, 426)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_005",
+		"id": 102180,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(821, -4307, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_006",
+		"id": 102186,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1125, -4275, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_smoking_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_007",
+		"id": 102187,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1400, -4275, 426)",
+			"rotation": "Rotation(135, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_008",
+		"id": 102188,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(509, -4390, 426)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_010",
+		"id": 102215,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(509, -4465, 426)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_011",
+		"id": 102216,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(433, -4390, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_013",
+		"id": 102225,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(434, -4465, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_007",
+		"id": 102235,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1329, -4371, 426)",
+			"rotation": "Rotation(-15, 0, -0)",
+			"state": "cm_sp_drunk_idle",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_008",
+		"id": 102255,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1163, -4329, 426)",
+			"rotation": "Rotation(44.9999, -0, -0)",
+			"state": "cm_sp_smoking_right1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_009",
+		"id": 102264,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(893, -4302, 426)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_011",
+		"id": 102269,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(493, -4302, 426)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_014",
+		"id": 102272,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(445, -4381, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_016",
+		"id": 102274,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(445, -4477, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_014",
+		"id": 102275,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(3300, -4300, 425)",
+			"rotation": "Rotation(-44.9999, 0, -0)",
+			"state": "cf_sp_smoking_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_001",
+		"id": 102284,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102275
+			}, {
+				"delay": 0,
+				"id": 102091
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_001",
+		"id": 102285,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102284
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_002",
+		"id": 102299,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102301
+			}, {
+				"delay": 0,
+				"id": 102327
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_002",
+		"id": 102301,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_003",
+		"id": 102302,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102314
+			}, {
+				"delay": 0,
+				"id": 102321
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_003",
+		"id": 102314,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102215
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_004",
+		"id": 102315,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102316
+			}, {
+				"delay": 0,
+				"id": 102319
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_004",
+		"id": 102316,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102269
+			}, {
+				"delay": 0,
+				"id": 102188
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_005",
+		"id": 102319,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_006",
+		"id": 102321,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102272
+			}, {
+				"delay": 0,
+				"id": 102216
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_007",
+		"id": 102327,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102274
+			}, {
+				"delay": 0,
+				"id": 102225
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_008",
+		"id": 102329,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102180
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_009",
+		"id": 102330,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102331
+			}, {
+				"delay": 0,
+				"id": 102329
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_009",
+		"id": 102331,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102264
+			}, {
+				"delay": 0,
+				"id": 102179
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_010",
+		"id": 102332,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102336
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_010",
+		"id": 102336,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102235
+			}, {
+				"delay": 0,
+				"id": 102186
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_011",
+		"id": 102352,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102255
+			}, {
+				"delay": 0,
+				"id": 102187
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_011",
+		"id": 102362,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102352
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_012",
+		"id": 102375,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_012",
+		"id": 102389,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_civilian_spawns_outside",
+		"id": 102390,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 2,
+			"amount_random": 0,
+			"base_delay": 0,
+			"counter_id": 101918,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102330
+			}, {
+				"delay": 0,
+				"id": 102285
+			}, {
+				"delay": 0,
+				"id": 102332
+			}, {
+				"delay": 0,
+				"id": 102362
+			}, {
+				"delay": 0,
+				"id": 102299
+			}, {
+				"delay": 0,
+				"id": 102302
+			}, {
+				"delay": 0,
+				"id": 102315
+			}, {
+				"delay": 0,
+				"id": 102399
+			}, {
+				"delay": 0,
+				"id": 102410
+			}, {
+				"delay": 0,
+				"id": 102436
+			}, {
+				"delay": 0,
+				"id": 102429
+			}, {
+				"delay": 0,
+				"id": 102451
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_017",
+		"id": 102398,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1846, -3959, 25)",
+			"rotation": "Rotation(-164, 0, -0)",
+			"state": "cm_sp_stretch1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_013",
+		"id": 102399,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102400
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_013",
+		"id": 102400,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102178
+			}, {
+				"delay": 0,
+				"id": 102398
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_014",
+		"id": 102401,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102089
+			}, {
+				"delay": 0,
+				"id": 102411
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_014",
+		"id": 102410,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102401
+			}, {
+				"delay": 0,
+				"id": 102423
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_015",
+		"id": 102411,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1814, -4138, 25)",
+			"rotation": "Rotation(41, -0, -0)",
+			"state": "cf_sp_smoking_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_018",
+		"id": 102418,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1734, -4129, 25)",
+			"rotation": "Rotation(-119, 0, -0)",
+			"state": "cm_sp_stretch1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_015",
+		"id": 102423,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102177
+			}, {
+				"delay": 0,
+				"id": 102418
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_016",
+		"id": 102425,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1331.19, -4113.56, 25)",
+			"rotation": "Rotation(39.9999, -0, -0)",
+			"state": "cf_sp_smoking_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_017",
+		"id": 102427,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1193, -4052, 25)",
+			"rotation": "Rotation(-144, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_016",
+		"id": 102428,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102090
+			}, {
+				"delay": 0,
+				"id": 102425
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_016",
+		"id": 102429,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102428
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_017",
+		"id": 102435,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102427
+			}, {
+				"delay": 0,
+				"id": 102061
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_017",
+		"id": 102436,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102435
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_018",
+		"id": 102450,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102010
+			}, {
+				"delay": 0,
+				"id": 100076
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_018",
+		"id": 102451,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102450
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "initial_civilian_spawn_remotelink",
+		"id": 102453,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100482
+			}, {
+				"delay": 0,
+				"id": 101467
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_019",
+		"id": 102454,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1628, -4678, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_020",
+		"id": 101062,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1524, -4686, 375)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_021",
+		"id": 101063,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1534, -4682, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_018",
+		"id": 102458,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1498, -4698, 375)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_019",
+		"id": 102459,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1678, -4666, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_020",
+		"id": 102460,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1534, -4661, 375)",
+			"rotation": "Rotation(180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_021",
+		"id": 102461,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5561, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_022",
+		"id": 102462,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5536, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_022",
+		"id": 102464,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5486, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_023",
+		"id": 102468,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5506, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed_var2",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_023",
+		"id": 102470,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1525, -5563, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_024",
+		"id": 102471,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1500, -5503, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_024",
+		"id": 102502,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5911, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_025",
+		"id": 102505,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5886, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_025",
+		"id": 102515,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1449, -5836, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_026",
+		"id": 102561,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -5861, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_026",
+		"id": 102562,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1551, -5850, 375)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_stand_look_down",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_027",
+		"id": 102570,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1525, -5885, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_027",
+		"id": 102572,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -6236, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_028",
+		"id": 102573,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -6236, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_028",
+		"id": 102577,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -6188, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_029",
+		"id": 102579,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1424, -6211, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_029",
+		"id": 102586,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1525, -6254, 375)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_030",
+		"id": 102595,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1525, -6208, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed_var2",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_019",
+		"id": 102473,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102471
+			}, {
+				"delay": 0,
+				"id": 102470
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_019",
+		"id": 102571,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102473
+			}, {
+				"delay": 0,
+				"id": 102470
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_020",
+		"id": 102596,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102464
+			}, {
+				"delay": 0,
+				"id": 102468
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_021",
+		"id": 102598,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102461
+			}, {
+				"delay": 0,
+				"id": 102462
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_021",
+		"id": 102599,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102598
+			}, {
+				"delay": 0,
+				"id": 102596
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_022",
+		"id": 102601,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102502
+			}, {
+				"delay": 0,
+				"id": 102505
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_022",
+		"id": 102602,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102601
+			}, {
+				"delay": 0,
+				"id": 102614
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_023",
+		"id": 102603,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102562
+			}, {
+				"delay": 0,
+				"id": 102570
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_023",
+		"id": 102608,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102603
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_024",
+		"id": 102614,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102515
+			}, {
+				"delay": 0,
+				"id": 102561
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_025",
+		"id": 102615,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102572
+			}, {
+				"delay": 0,
+				"id": 102595
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_025",
+		"id": 102623,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102615
+			}, {
+				"delay": 0,
+				"id": 102687
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_026",
+		"id": 102652,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102586
+			}, {
+				"delay": 0,
+				"id": 102595
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_026",
+		"id": 102664,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102652
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_027",
+		"id": 102687,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102577
+			}, {
+				"delay": 0,
+				"id": 102579
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_028",
+		"id": 102688,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102459
+			}, {
+				"delay": 0,
+				"id": 102454
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_029",
+		"id": 102695,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102460
+			}, {
+				"delay": 0,
+				"id": 101063
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_030",
+		"id": 102698,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101062
+			}, {
+				"delay": 0,
+				"id": 102458
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_civilian_spawns_inside_2ndfloor",
+		"id": 101906,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 2,
+			"amount_random": 0,
+			"base_delay": 0,
+			"counter_id": 101922,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102571
+			}, {
+				"delay": 0,
+				"id": 102599
+			}, {
+				"delay": 0,
+				"id": 102608
+			}, {
+				"delay": 0,
+				"id": 102602
+			}, {
+				"delay": 0,
+				"id": 102664
+			}, {
+				"delay": 0,
+				"id": 102623
+			}, {
+				"delay": 0,
+				"id": 102706
+			}, {
+				"delay": 0,
+				"id": 102710
+			}, {
+				"delay": 0,
+				"id": 102711
+			}, {
+				"delay": 0,
+				"id": 101324
+			}, {
+				"delay": 0,
+				"id": 102120
+			}, {
+				"delay": 0,
+				"id": 101463
+			}, {
+				"delay": 0,
+				"id": 101623
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_030",
+		"id": 102700,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2612, -4669, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_032",
+		"id": 102704,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2615, -4682, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_031",
+		"id": 102706,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102707
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_031",
+		"id": 102707,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102700
+			}, {
+				"delay": 0,
+				"id": 102704
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_single_001",
+		"id": 102710,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1850, -4873, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_look_look_semi_down",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_single_002",
+		"id": 102711,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2489, -4861, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_hands_on_hip",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_033",
+		"id": 102712,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1159, -5269, 375)",
+			"rotation": "Rotation(3.07359e-005, -0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_034",
+		"id": 102713,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1177, -5186, 375)",
+			"rotation": "Rotation(-175, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_single_001",
+		"id": 101324,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1124, -4961, 375)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_single_002",
+		"id": 102120,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(849, -6236, 375)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_smoking_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_032",
+		"id": 102714,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2462, -5136, -25)",
+			"rotation": "Rotation(78, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_036",
+		"id": 102716,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2452, -5157, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_033",
+		"id": 102717,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2436, -5145, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_037",
+		"id": 102718,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2453, -5074, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_038",
+		"id": 102719,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2438, -5074, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_034",
+		"id": 102720,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2464, -5074, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_035",
+		"id": 102733,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2434, -5074, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_040",
+		"id": 102736,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2166, -4748, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_036",
+		"id": 102737,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2186, -4748, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_037",
+		"id": 102738,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2060, -4764, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_041",
+		"id": 102739,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2089, -4667, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_042",
+		"id": 102740,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2174, -4673, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_038",
+		"id": 102742,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2187, -4673, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_039",
+		"id": 102744,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2063, -4673, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_040",
+		"id": 102745,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1228, -5463, -25)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_043",
+		"id": 102746,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1224, -5489, -25)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_044",
+		"id": 102747,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1240, -5523, -25)",
+			"rotation": "Rotation(-11, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_041",
+		"id": 102748,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1240, -5538, -25)",
+			"rotation": "Rotation(-1.36603e-005, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_042",
+		"id": 102752,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1297, -5459, -25)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_043",
+		"id": 102754,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1318, -5540, -25)",
+			"rotation": "Rotation(-1.36603e-005, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_046",
+		"id": 102755,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1304, -5523, -25)",
+			"rotation": "Rotation(1.02453e-005, -0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_047",
+		"id": 102756,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1233, -5826, -25)",
+			"rotation": "Rotation(-159, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_044",
+		"id": 102757,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1318, -5913, -25)",
+			"rotation": "Rotation(-1.36603e-005, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_045",
+		"id": 102758,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1298, -5813, -25)",
+			"rotation": "Rotation(171, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_048",
+		"id": 102759,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1315, -5888, -25)",
+			"rotation": "Rotation(1.02453e-005, -0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_049",
+		"id": 102760,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1303, -5839, -25)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_046",
+		"id": 102761,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1240, -5915, -25)",
+			"rotation": "Rotation(-1.36603e-005, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_047",
+		"id": 102763,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1233, -5809, -25)",
+			"rotation": "Rotation(171, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_051",
+		"id": 102764,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1785, -5620, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_048",
+		"id": 102765,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1763, -5620, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_049",
+		"id": 102766,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1840, -5513, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_052",
+		"id": 102767,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1827, -5588, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_053",
+		"id": 102768,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1779, -5733, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed_var2",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_050",
+		"id": 102782,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1762, -5754, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_051",
+		"id": 102787,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1840, -5775, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_054",
+		"id": 102809,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(1830, -5701, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_055",
+		"id": 102810,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2457, -6142, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_052",
+		"id": 102812,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2461, -6149, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_056",
+		"id": 102912,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2443, -6149, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_legs_crossed_var2",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_053",
+		"id": 102930,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2461, -6199, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_054",
+		"id": 102933,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2430, -6149, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_055",
+		"id": 102940,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2433, -6202, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_058",
+		"id": 102942,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2442, -6216, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_059",
+		"id": 102944,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2156, -6122, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_legs_crossed",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_056",
+		"id": 102947,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2158, -6136, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_060",
+		"id": 102948,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2141, -6136, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_sit_legs_crossed_var2",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_057",
+		"id": 102954,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2155, -6189, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_058",
+		"id": 102955,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2133, -6136, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_poser_059",
+		"id": 102958,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2130, -6189, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_poser_062",
+		"id": 103010,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2148, -6208, -25)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_033",
+		"id": 103011,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102714
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_034",
+		"id": 103013,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102720
+			}, {
+				"delay": 0,
+				"id": 102719
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_034",
+		"id": 103014,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103011
+			}, {
+				"delay": 0,
+				"id": 103045
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_035",
+		"id": 103015,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102733
+			}, {
+				"delay": 0,
+				"id": 102718
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_035",
+		"id": 103044,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103015
+			}, {
+				"delay": 0,
+				"id": 103013
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_036",
+		"id": 103045,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102717
+			}, {
+				"delay": 0,
+				"id": 102716
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_037",
+		"id": 103052,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102744
+			}, {
+				"delay": 0,
+				"id": 102739
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_037",
+		"id": 103072,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103052
+			}, {
+				"delay": 0,
+				"id": 103418
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_038",
+		"id": 103176,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102738
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_039",
+		"id": 103417,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102737
+			}, {
+				"delay": 0,
+				"id": 102736
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_040",
+		"id": 103418,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102742
+			}, {
+				"delay": 0,
+				"id": 102740
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_039",
+		"id": 103419,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103417
+			}, {
+				"delay": 0,
+				"id": 103176
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_041",
+		"id": 103500,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102766
+			}, {
+				"delay": 0,
+				"id": 102767
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_042",
+		"id": 103502,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102765
+			}, {
+				"delay": 0,
+				"id": 102764
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_042",
+		"id": 103503,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103502
+			}, {
+				"delay": 0,
+				"id": 103500
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_043",
+		"id": 103512,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102782
+			}, {
+				"delay": 0,
+				"id": 102768
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_043",
+		"id": 103513,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103512
+			}, {
+				"delay": 0,
+				"id": 103514
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_044",
+		"id": 103514,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102787
+			}, {
+				"delay": 0,
+				"id": 102809
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_045",
+		"id": 103538,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102954
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_046",
+		"id": 103911,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102947
+			}, {
+				"delay": 0,
+				"id": 102948
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_047",
+		"id": 103913,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102958
+			}, {
+				"delay": 0,
+				"id": 103010
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_047",
+		"id": 103914,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103913
+			}, {
+				"delay": 0,
+				"id": 103538
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_048",
+		"id": 103916,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103917
+			}, {
+				"delay": 0,
+				"id": 103911
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_048",
+		"id": 103917,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102955
+			}, {
+				"delay": 0,
+				"id": 102944
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_049",
+		"id": 103918,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102940
+			}, {
+				"delay": 0,
+				"id": 102942
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_049",
+		"id": 103919,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103918
+			}, {
+				"delay": 0,
+				"id": 103928
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_050",
+		"id": 103925,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103926
+			}, {
+				"delay": 0,
+				"id": 103927
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_050",
+		"id": 103926,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102933
+			}, {
+				"delay": 0,
+				"id": 102810
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_051",
+		"id": 103927,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102812
+			}, {
+				"delay": 0,
+				"id": 102912
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_052",
+		"id": 103928,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102930
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_053",
+		"id": 103942,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102761
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_053",
+		"id": 103956,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103962
+			}, {
+				"delay": 0,
+				"id": 103973
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_054",
+		"id": 103962,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102757
+			}, {
+				"delay": 0,
+				"id": 102759
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_055",
+		"id": 103963,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102763
+			}, {
+				"delay": 0,
+				"id": 102756
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_055",
+		"id": 103971,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103963
+			}, {
+				"delay": 0,
+				"id": 103942
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_056",
+		"id": 103973,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102758
+			}, {
+				"delay": 0,
+				"id": 102760
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_057",
+		"id": 103978,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102748
+			}, {
+				"delay": 0,
+				"id": 102747
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_057",
+		"id": 103980,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103982
+			}, {
+				"delay": 0,
+				"id": 104006
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_058",
+		"id": 103982,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102754
+			}, {
+				"delay": 0,
+				"id": 102755
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_059",
+		"id": 103983,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102745
+			}, {
+				"delay": 0,
+				"id": 102746
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_059",
+		"id": 103984,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103983
+			}, {
+				"delay": 0,
+				"id": 103978
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_060",
+		"id": 104006,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102752
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_civilian_spawns_inside_1stfloor",
+		"id": 104007,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 3,
+			"amount_random": 0,
+			"base_delay": 0,
+			"counter_id": 101923,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103919
+			}, {
+				"delay": 0,
+				"id": 103925
+			}, {
+				"delay": 0,
+				"id": 103914
+			}, {
+				"delay": 0,
+				"id": 103916
+			}, {
+				"delay": 0,
+				"id": 103513
+			}, {
+				"delay": 0,
+				"id": 103503
+			}, {
+				"delay": 0,
+				"id": 103072
+			}, {
+				"delay": 0,
+				"id": 103419
+			}, {
+				"delay": 0,
+				"id": 103044
+			}, {
+				"delay": 0,
+				"id": 103014
+			}, {
+				"delay": 0,
+				"id": 103984
+			}, {
+				"delay": 0,
+				"id": 103980
+			}, {
+				"delay": 0,
+				"id": 103971
+			}, {
+				"delay": 0,
+				"id": 103956
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_single_003",
+		"id": 102522,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2170, -5083, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_sitting_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_wanderer_001",
+		"id": 104008,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(1091, -4960, -25)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_drunk_idle",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_wanderer_001",
+		"id": 104009,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(999, -5241, -25)",
+			"rotation": "Rotation(-135, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_001",
+		"id": 104058,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 30,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(1763, -4805, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(0, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_answer_phone",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_002",
+		"id": 104059,
+		"values": {
+			"SO_access": "1",
+			"action_duration_max": 30,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(3051, -4561, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(3.41509e-005, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "none",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_003",
+		"id": 104073,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 120,
+			"action_duration_min": 30,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(2065, -5104, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(130, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_sit_in_chair",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_004",
+		"id": 104074,
+		"values": {
+			"SO_access": "1",
+			"action_duration_max": 30,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(2876, -4737, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_look_windows",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_006",
+		"id": 104076,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 30,
+			"action_duration_min": 20,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(762, -4950, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_lean_bar",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_007",
+		"id": 104077,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 120,
+			"action_duration_min": 25,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(1515.23, -5022.02, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(-77, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_sit_in_chair",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_008",
+		"id": 104078,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 120,
+			"action_duration_min": 25,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(1455, -5005, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_sit_in_chair",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_009",
+		"id": 104079,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 30,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(840, -4693, 425)",
+			"repeatable": false,
+			"rotation": "Rotation(-180, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "none",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_010",
+		"id": 104080,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 30,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(706, -4699, 425)",
+			"repeatable": false,
+			"rotation": "Rotation(-180, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "none",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "so_wanderer_011",
+		"id": 104081,
+		"values": {
+			"SO_access": "3",
+			"action_duration_max": 30,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104083 ],
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(2486, -6398, -25)",
+			"repeatable": false,
+			"rotation": "Rotation(-180, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(1700, -6025, 957.31)",
+			"so_action": "cmf_so_lean_bar",
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "ElementSpecialObjectiveGroup",
+		"editor_name": "ai_so_group_001",
+		"id": 104083,
+		"values": {
+			"base_chance": 1,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"followup_elements": [ 104058, 104059, 104074, 104073, 104078, 104077, 104076, 104081, 104079, 104080 ],
+			"mode": "randomizer",
+			"on_executed": [],
+			"position": "Vector3(1250, -6250, 1400)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"use_instigator": true
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_wanderer_001",
+		"id": 104086,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104090
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_061",
+		"id": 104090,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104009
+			}, {
+				"delay": 0,
+				"id": 104008
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_wanderer_002",
+		"id": 104092,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104095
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_062",
+		"id": 104095,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104096
+			}, {
+				"delay": 0,
+				"id": 104097
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_wanderer_002",
+		"id": 104096,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(2700, -4750, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_wanderer_002",
+		"id": 104097,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(2700, -4850, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_stand_idle",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_wanderer_003",
+		"id": 104098,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104100
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_063",
+		"id": 104100,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104104
+			}, {
+				"delay": 0,
+				"id": 104105
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_wanderer_003",
+		"id": 104104,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(2700, -6300, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_wanderer_003",
+		"id": 104105,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(2700, -6175, -25)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_stand_idle",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_wanderer_004",
+		"id": 104113,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104118
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_064",
+		"id": 104118,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104119
+			}, {
+				"delay": 0,
+				"id": 104120
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_wanderer_004",
+		"id": 104119,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(1823, -4582, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_wanderer_004",
+		"id": 104120,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(1824, -4561, 375)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_stand_idle",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_wanderer_005",
+		"id": 104121,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104122
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_func_spawn_065",
+		"id": 104122,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104123
+			}, {
+				"delay": 0,
+				"id": 104124
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_female_wanderer_005",
+		"id": 104123,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(325, -4800, 425)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_stand_idle_var1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "civ_male_wanderer_005",
+		"id": 104124,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104127
+			} ],
+			"position": "Vector3(324, -4747, 426)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_stand_idle",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_civilian_spawns_wanderers",
+		"id": 104125,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 3,
+			"amount_random": 0,
+			"base_delay": 0,
+			"counter_id": 101924,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104086
+			}, {
+				"delay": 0,
+				"id": 104092
+			}, {
+				"delay": 0,
+				"id": 104098
+			}, {
+				"delay": 0,
+				"id": 104113
+			}, {
+				"delay": 0,
+				"id": 104121
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_126",
+		"id": 104127,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104083
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_001",
+		"id": 101270,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2689, -5432, -75)",
+			"rotation": "Rotation(135, 0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_002",
+		"id": 101271,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2492, -5544, -75)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_003",
+		"id": 101272,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2650, -5850, -75.0002)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_004",
+		"id": 101273,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2375, -5900, -75.0002)",
+			"rotation": "Rotation(-44.9999, 0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_001",
+		"id": 101283,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2618.29, -5502.71, -75)",
+			"rotation": "Rotation(-44.9999, 0, -0)",
+			"state": "cf_sp_dance_sexy",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_002",
+		"id": 101284,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2392, -5544, -75)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_003",
+		"id": 101285,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2525, -5700, -75)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_005",
+		"id": 101286,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2449.29, -5349.29, -75)",
+			"rotation": "Rotation(-135, 0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_004",
+		"id": 101287,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2520, -5420, -75)",
+			"rotation": "Rotation(45.0001, -0, -0)",
+			"state": "cf_sp_dance_sexy",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_005",
+		"id": 101288,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2499, -5831, -75)",
+			"rotation": "Rotation(45.0001, -0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_006",
+		"id": 101289,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2375, -5700, -75.0002)",
+			"rotation": "Rotation(-135, 0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_006",
+		"id": 101290,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_3/civ_male_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2350, -5625, -75.0002)",
+			"rotation": "Rotation(135, 0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_007",
+		"id": 101291,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2689, -5625, -75)",
+			"rotation": "Rotation(44.9999, -0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_008",
+		"id": 101292,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2151, -5424, -75)",
+			"rotation": "Rotation(-135, 0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_007",
+		"id": 101297,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_3/civ_female_party_3",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2251, -5507, -75)",
+			"rotation": "Rotation(2.04906e-005, -0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_008",
+		"id": 101311,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2135.9, -5820.4, -75.0002)",
+			"rotation": "Rotation(-63, 0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_009",
+		"id": 101312,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2225, -5775, -75.0002)",
+			"rotation": "Rotation(117, -0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_009",
+		"id": 101313,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_4/civ_female_party_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2650, -5725, -75.0002)",
+			"rotation": "Rotation(-135, 0, -0)",
+			"state": "cf_sp_dance_sexy",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_maledancer_010",
+		"id": 101320,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2150, -5650, -75.0002)",
+			"rotation": "Rotation(-150, 0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_femaledancer_010",
+		"id": 101326,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2370, -5422, -75)",
+			"rotation": "Rotation(45.0001, -0, -0)",
+			"state": "cf_sp_dance_slow",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_127",
+		"id": 101328,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101283
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_128",
+		"id": 101329,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.15000000596046,
+				"id": 101284
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_129",
+		"id": 101332,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.18000000715256,
+				"id": 101285
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_130",
+		"id": 101333,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.34999999403954,
+				"id": 101287
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_131",
+		"id": 101363,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.75,
+				"id": 101288
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_132",
+		"id": 101364,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.60000002384186,
+				"id": 101289
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_133",
+		"id": 101770,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.10000000149012,
+				"id": 101297
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_134",
+		"id": 101926,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.43000000715256,
+				"id": 101311
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_135",
+		"id": 101989,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.28999999165535,
+				"id": 101313
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_136",
+		"id": 102479,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.87000000476837,
+				"id": 101326
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_137",
+		"id": 103120,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101270
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_138",
+		"id": 103125,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.10000000149012,
+				"id": 101271
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_139",
+		"id": 104128,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.23999999463558,
+				"id": 101272
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_140",
+		"id": 104129,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.34999999403954,
+				"id": 101273
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_141",
+		"id": 104201,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.36000001430511,
+				"id": 101286
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_142",
+		"id": 104203,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.44999998807907,
+				"id": 101290
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_143",
+		"id": 104206,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.86000001430511,
+				"id": 101291
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_144",
+		"id": 104207,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.56999999284744,
+				"id": 101292
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_145",
+		"id": 104208,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.68000000715256,
+				"id": 101312
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_146",
+		"id": 104209,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.75,
+				"id": 101320
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_civilian_dancers",
+		"id": 104210,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 7,
+			"amount_random": 0,
+			"base_delay": 0,
+			"counter_id": 101916,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101328
+			}, {
+				"delay": 0,
+				"id": 101329
+			}, {
+				"delay": 0,
+				"id": 101332
+			}, {
+				"delay": 0,
+				"id": 101333
+			}, {
+				"delay": 0,
+				"id": 101363
+			}, {
+				"delay": 0,
+				"id": 101364
+			}, {
+				"delay": 0,
+				"id": 101770
+			}, {
+				"delay": 0,
+				"id": 101926
+			}, {
+				"delay": 0,
+				"id": 101989
+			}, {
+				"delay": 0,
+				"id": 102479
+			}, {
+				"delay": 0,
+				"id": 103120
+			}, {
+				"delay": 0,
+				"id": 103125
+			}, {
+				"delay": 0,
+				"id": 104128
+			}, {
+				"delay": 0,
+				"id": 104129
+			}, {
+				"delay": 0,
+				"id": 104201
+			}, {
+				"delay": 0,
+				"id": 104203
+			}, {
+				"delay": 0,
+				"id": 104206
+			}, {
+				"delay": 0,
+				"id": 104207
+			}, {
+				"delay": 0,
+				"id": 104208
+			}, {
+				"delay": 0,
+				"id": 104209
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_dj_dude_001",
+		"id": 105118,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_dj_1/civ_male_dj_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2866, -5623, 80.7853)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_dj_loop",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "random_civilian_dj",
+		"id": 105121,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"counter_id": 101914,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 105118
+			}, {
+				"delay": 0,
+				"id": 105122
+			}, {
+				"delay": 0,
+				"id": 105124
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_dj_dude_002",
+		"id": 105122,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_dj_1/civ_male_dj_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2889, -5534, 75)",
+			"rotation": "Rotation(90, -0, -0)",
+			"state": "cm_sp_lean_desk_1_2m_01",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_dj_dude_004",
+		"id": 105124,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_dj_1/civ_male_dj_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2928, -5563, 75)",
+			"rotation": "Rotation(101, -0, -0)",
+			"state": "cm_sp_male_stripper",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_118",
+		"id": 100482,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100485
+			}, {
+				"delay": 0,
+				"id": 100484
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "spawn_coatdudes",
+		"id": 100484,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100479
+			} ],
+			"position": "Vector3(1050, -3475, 775)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "spawn_bardudes",
+		"id": 100485,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100477
+			} ],
+			"position": "Vector3(1050, -3400, 775)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementEnemyDummyTrigger",
+		"editor_name": "female_killed",
+		"id": 100896,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 102177, 102411, 102178, 102425, 100076, 102427, 102187, 102179, 102180, 102275, 104123, 102215, 102188, 102216, 102225, 104009, 102738, 102737, 102744, 102742, 104096, 102733, 102714, 102720, 102717, 102766, 102787, 102765, 102782, 102761, 102757, 102758, 102763, 102752, 102745, 102754, 102748, 102577, 102572, 102586, 102502, 102562, 102515, 102464, 102461, 102470, 101324, 102458, 102459, 102460, 104119, 102700, 102186 ],
+			"enabled": true,
+			"event": "death",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100900
+			} ],
+			"position": "Vector3(1675, -3425, 75)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementEnemyDummyTrigger",
+		"editor_name": "male_killed",
+		"id": 100897,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 102010, 102061, 102418, 102089, 102398, 102235, 102255, 102264, 102269, 102272, 102274, 104124, 102091, 102713, 102712, 102468, 102462, 102471, 102561, 102505, 102570, 102595, 102573, 102579, 102710, 104120, 101062, 102454, 101063, 102711, 102704, 105122, 105118, 105124, 101270, 101283, 101291, 101272, 101290, 101271, 101287, 101286, 101284, 101326, 101320, 101292, 101297, 101313, 101311, 101312, 101289, 101273, 101288, 102948, 102944, 103010, 102810, 102942, 102912, 102747, 102755, 102746, 102760, 102756, 102759, 102768, 102767, 102764, 102809, 104105, 102090 ],
+			"enabled": true,
+			"event": "death",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100899
+			} ],
+			"position": "Vector3(1575, -3425, 75)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "func_execute_in_other_mission_005",
+		"id": 100898,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1625, -3275, 75)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_049",
+		"id": 100899,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100898
+			}, {
+				"delay": 0,
+				"id": 101848
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_157",
+		"id": 100900,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100898
+			}, {
+				"delay": 0,
+				"id": 101848
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_061",
+		"id": 101463,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102712
+			}, {
+				"delay": 0,
+				"id": 102713
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "spawn_normal",
+		"id": 101467,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104125
+			}, {
+				"delay": 0,
+				"id": 104007
+			}, {
+				"delay": 0,
+				"id": 101906
+			}, {
+				"delay": 0,
+				"id": 102390
+			}, {
+				"delay": 0,
+				"id": 104210
+			}, {
+				"delay": 0,
+				"id": 105121
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "civ_spawnrandom_028",
+		"id": 101623,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102698
+			}, {
+				"delay": 0,
+				"id": 102688
+			}, {
+				"delay": 0,
+				"id": 102695
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementDebug",
+		"editor_name": "point_debug_009",
+		"id": 101848,
+		"module": "CoreElementDebug",
+		"values": {
+			"as_subtitle": false,
+			"base_delay": 0,
+			"debug_string": "civ_died_civ_control_script",
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"show_instigator": false,
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_003",
+		"id": 101914,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 1,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_004",
+		"id": 101916,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 6,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_006",
+		"id": 101918,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 2,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_007",
+		"id": 101922,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 1,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_008",
+		"id": 101923,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 2,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounter",
+		"editor_name": "logic_counter_009",
+		"id": 101924,
+		"module": "CoreElementCounter",
+		"values": {
+			"base_delay": 0,
+			"counter_target": 2,
+			"digital_gui_unit_ids": [],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_wanderers",
+		"id": 101925,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 2,
+			"base_delay": 0,
+			"elements": [ 101924 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_inside_1stfloor",
+		"id": 101930,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 1,
+			"base_delay": 0,
+			"elements": [ 101924 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_inside_2ndfloor",
+		"id": 101936,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 0,
+			"base_delay": 0,
+			"elements": [ 101924 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_outside",
+		"id": 101939,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 1,
+			"base_delay": 0,
+			"elements": [ 101924 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_dancers",
+		"id": 101940,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 0,
+			"base_delay": 0,
+			"elements": [ 101924 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_wanderers001",
+		"id": 101937,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 1,
+			"base_delay": 0,
+			"elements": [ 101924 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_inside_1stfloor001",
+		"id": 101946,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 1,
+			"base_delay": 0,
+			"elements": [ 101923 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_inside_2ndfloor001",
+		"id": 101947,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 0,
+			"base_delay": 0,
+			"elements": [ 101922 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_outside001",
+		"id": 101948,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 1,
+			"base_delay": 0,
+			"elements": [ 101918 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementCounterOperator",
+		"editor_name": "logic_operator_badmusic_dancers001",
+		"id": 101949,
+		"module": "CoreElementCounter",
+		"values": {
+			"amount": 3,
+			"base_delay": 0,
+			"elements": [ 101916 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"operation": "set",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_071",
+		"id": 102107,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104209
+			}, {
+				"delay": 0,
+				"id": 104208
+			}, {
+				"delay": 0,
+				"id": 104207
+			}, {
+				"delay": 0,
+				"id": 104206
+			}, {
+				"delay": 0,
+				"id": 104203
+			}, {
+				"delay": 0,
+				"id": 104201
+			}, {
+				"delay": 0,
+				"id": 104129
+			}, {
+				"delay": 0,
+				"id": 104128
+			}, {
+				"delay": 0,
+				"id": 103125
+			}, {
+				"delay": 0,
+				"id": 103120
+			}, {
+				"delay": 0,
+				"id": 102479
+			}, {
+				"delay": 0,
+				"id": 101989
+			}, {
+				"delay": 0,
+				"id": 101926
+			}, {
+				"delay": 0,
+				"id": 101770
+			}, {
+				"delay": 0,
+				"id": 101364
+			}, {
+				"delay": 0,
+				"id": 101363
+			}, {
+				"delay": 0,
+				"id": 101333
+			}, {
+				"delay": 0,
+				"id": 101332
+			}, {
+				"delay": 0,
+				"id": 101329
+			}, {
+				"delay": 0,
+				"id": 101328
+			}, {
+				"delay": 0,
+				"id": 105118
+			}, {
+				"delay": 0,
+				"id": 105122
+			}, {
+				"delay": 0,
+				"id": 105124
+			}, {
+				"delay": 0,
+				"id": 100076
+			}, {
+				"delay": 0,
+				"id": 102177
+			}, {
+				"delay": 0,
+				"id": 102178
+			}, {
+				"delay": 0,
+				"id": 102179
+			}, {
+				"delay": 0,
+				"id": 102180
+			}, {
+				"delay": 0,
+				"id": 102186
+			}, {
+				"delay": 0,
+				"id": 102187
+			}, {
+				"delay": 0,
+				"id": 102188
+			}, {
+				"delay": 0,
+				"id": 102215
+			}, {
+				"delay": 0,
+				"id": 102216
+			}, {
+				"delay": 0,
+				"id": 102225
+			}, {
+				"delay": 0,
+				"id": 102275
+			}, {
+				"delay": 0,
+				"id": 102411
+			}, {
+				"delay": 0,
+				"id": 102425
+			}, {
+				"delay": 0,
+				"id": 102427
+			}, {
+				"delay": 0,
+				"id": 102458
+			}, {
+				"delay": 0,
+				"id": 102459
+			}, {
+				"delay": 0,
+				"id": 102460
+			}, {
+				"delay": 0,
+				"id": 102461
+			}, {
+				"delay": 0,
+				"id": 102464
+			}, {
+				"delay": 0,
+				"id": 102470
+			}, {
+				"delay": 0,
+				"id": 102502
+			}, {
+				"delay": 0,
+				"id": 102515
+			}, {
+				"delay": 0,
+				"id": 102562
+			}, {
+				"delay": 0,
+				"id": 102572
+			}, {
+				"delay": 0,
+				"id": 102577
+			}, {
+				"delay": 0,
+				"id": 102586
+			}, {
+				"delay": 0,
+				"id": 102700
+			}, {
+				"delay": 0,
+				"id": 102714
+			}, {
+				"delay": 0,
+				"id": 102717
+			}, {
+				"delay": 0,
+				"id": 102720
+			}, {
+				"delay": 0,
+				"id": 102733
+			}, {
+				"delay": 0,
+				"id": 102737
+			}, {
+				"delay": 0,
+				"id": 102738
+			}, {
+				"delay": 0,
+				"id": 102742
+			}, {
+				"delay": 0,
+				"id": 102744
+			}, {
+				"delay": 0,
+				"id": 102745
+			}, {
+				"delay": 0,
+				"id": 102748
+			}, {
+				"delay": 0,
+				"id": 102752
+			}, {
+				"delay": 0,
+				"id": 102754
+			}, {
+				"delay": 0,
+				"id": 102757
+			}, {
+				"delay": 0,
+				"id": 102758
+			}, {
+				"delay": 0,
+				"id": 102761
+			}, {
+				"delay": 0,
+				"id": 102763
+			}, {
+				"delay": 0,
+				"id": 102765
+			}, {
+				"delay": 0,
+				"id": 102766
+			}, {
+				"delay": 0,
+				"id": 102782
+			}, {
+				"delay": 0,
+				"id": 102787
+			}, {
+				"delay": 0,
+				"id": 102812
+			}, {
+				"delay": 0,
+				"id": 102930
+			}, {
+				"delay": 0,
+				"id": 102933
+			}, {
+				"delay": 0,
+				"id": 102940
+			}, {
+				"delay": 0,
+				"id": 102947
+			}, {
+				"delay": 0,
+				"id": 102954
+			}, {
+				"delay": 0,
+				"id": 102955
+			}, {
+				"delay": 0,
+				"id": 102958
+			}, {
+				"delay": 0,
+				"id": 102010
+			}, {
+				"delay": 0,
+				"id": 102061
+			}, {
+				"delay": 0,
+				"id": 102090
+			}, {
+				"delay": 0,
+				"id": 102089
+			}, {
+				"delay": 0,
+				"id": 102091
+			}, {
+				"delay": 0,
+				"id": 102235
+			}, {
+				"delay": 0,
+				"id": 102255
+			}, {
+				"delay": 0,
+				"id": 102264
+			}, {
+				"delay": 0,
+				"id": 102269
+			}, {
+				"delay": 0,
+				"id": 102272
+			}, {
+				"delay": 0,
+				"id": 102274
+			}, {
+				"delay": 0,
+				"id": 102398
+			}, {
+				"delay": 0,
+				"id": 102418
+			}, {
+				"delay": 0,
+				"id": 102454
+			}, {
+				"delay": 0,
+				"id": 101062
+			}, {
+				"delay": 0,
+				"id": 101063
+			}, {
+				"delay": 0,
+				"id": 102462
+			}, {
+				"delay": 0,
+				"id": 102468
+			}, {
+				"delay": 0,
+				"id": 102471
+			}, {
+				"delay": 0,
+				"id": 102505
+			}, {
+				"delay": 0,
+				"id": 102561
+			}, {
+				"delay": 0,
+				"id": 102570
+			}, {
+				"delay": 0,
+				"id": 102573
+			}, {
+				"delay": 0,
+				"id": 102579
+			}, {
+				"delay": 0,
+				"id": 102595
+			}, {
+				"delay": 0,
+				"id": 102704
+			}, {
+				"delay": 0,
+				"id": 102712
+			}, {
+				"delay": 0,
+				"id": 102713
+			}, {
+				"delay": 0,
+				"id": 102716
+			}, {
+				"delay": 0,
+				"id": 102718
+			}, {
+				"delay": 0,
+				"id": 102719
+			}, {
+				"delay": 0,
+				"id": 102736
+			}, {
+				"delay": 0,
+				"id": 102739
+			}, {
+				"delay": 0,
+				"id": 102740
+			}, {
+				"delay": 0,
+				"id": 102746
+			}, {
+				"delay": 0,
+				"id": 102747
+			}, {
+				"delay": 0,
+				"id": 102755
+			}, {
+				"delay": 0,
+				"id": 102756
+			}, {
+				"delay": 0,
+				"id": 102759
+			}, {
+				"delay": 0,
+				"id": 102760
+			}, {
+				"delay": 0,
+				"id": 102764
+			}, {
+				"delay": 0,
+				"id": 102767
+			}, {
+				"delay": 0,
+				"id": 102768
+			}, {
+				"delay": 0,
+				"id": 102809
+			}, {
+				"delay": 0,
+				"id": 102810
+			}, {
+				"delay": 0,
+				"id": 102912
+			}, {
+				"delay": 0,
+				"id": 102942
+			}, {
+				"delay": 0,
+				"id": 102944
+			}, {
+				"delay": 0,
+				"id": 102948
+			}, {
+				"delay": 0,
+				"id": 103010
+			}, {
+				"delay": 0,
+				"id": 104086
+			}, {
+				"delay": 0,
+				"id": 104092
+			}, {
+				"delay": 0,
+				"id": 104098
+			}, {
+				"delay": 0,
+				"id": 104113
+			}, {
+				"delay": 0,
+				"id": 104121
+			}, {
+				"delay": 0,
+				"id": 101324
+			}, {
+				"delay": 0,
+				"id": 102120
+			}, {
+				"delay": 0,
+				"id": 102710
+			}, {
+				"delay": 0,
+				"id": 102711
+			}, {
+				"delay": 0,
+				"id": 102522
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjectiveTrigger",
+		"editor_name": "trigger_special_objective_002",
+		"id": 102121,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 104076 ],
+			"enabled": true,
+			"event": "anim_start",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102156
+			} ],
+			"position": "Vector3(800, -4850, 0.999756)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjectiveTrigger",
+		"editor_name": "trigger_special_objective_003",
+		"id": 102123,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 104076 ],
+			"enabled": true,
+			"event": "complete",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102157
+			} ],
+			"position": "Vector3(800, -4850, 75.9998)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "start_exec",
+		"id": 102156,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(800, -4775, 0)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "stop_exec",
+		"id": 102157,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(800, -4775, 75)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "spawn_a_wander_civilian",
+		"id": 103647,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103651
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_005",
+		"id": 103648,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104083
+			} ],
+			"position": "Vector3(3575, -7100, 25.0005)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "none",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_006",
+		"id": 103649,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_2/civ_male_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104083
+			} ],
+			"position": "Vector3(-3150, -2300, 25.0001)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "none",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_007",
+		"id": 103650,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_2/civ_female_party_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104083
+			} ],
+			"position": "Vector3(-3150, -2350, 25)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "none",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementRandom",
+		"editor_name": "logic_random_044",
+		"id": 103651,
+		"module": "CoreElementRandom",
+		"values": {
+			"amount": 1,
+			"amount_random": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_disabled": true,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103652
+			}, {
+				"delay": 0,
+				"id": 103648
+			}, {
+				"delay": 0,
+				"id": 103649
+			}, {
+				"delay": 0,
+				"id": 103650
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_008",
+		"id": 103652,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_party_1/civ_male_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 104083
+			} ],
+			"position": "Vector3(3575, -7225, 25.0005)",
+			"rotation": "Rotation(0, 0, -0)",
+			"state": "none",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementEnemyDummyTrigger",
+		"editor_name": "ai_enemy_trigger_020",
+		"id": 103653,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 103652, 103648, 103649, 103650 ],
+			"enabled": true,
+			"event": "death",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103654
+			} ],
+			"position": "Vector3(4050, -1675, 300)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "func_execute_in_other_mission_008",
+		"id": 103654,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103646
+			} ],
+			"position": "Vector3(4125, -1675, 300)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "badmusic_asset",
+		"id": 103696,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101949
+			}, {
+				"delay": 0,
+				"id": 101948
+			}, {
+				"delay": 0,
+				"id": 101947
+			}, {
+				"delay": 0,
+				"id": 101946
+			}, {
+				"delay": 0,
+				"id": 101937
+			} ],
+			"trigger_times": 0
+		}
+	} ],
+	"instances": []
+}

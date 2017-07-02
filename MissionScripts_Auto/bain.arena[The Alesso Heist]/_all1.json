@@ -1,0 +1,21 @@
+//The Alesso Heist - 音樂會劫案(The Alesso Heist)
+{
+	"art": {
+		"file": "art/art"
+	},
+	"art_temp": {
+		"file": "art_temp/art_temp"
+	},
+	"backdrop": {
+		"file": "backdrop/backdrop"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"light": {
+		"file": "light/light"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

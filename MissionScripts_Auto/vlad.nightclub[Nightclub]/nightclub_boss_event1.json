@@ -1,0 +1,954 @@
+//Nightclub - 夜總會狂歡(Night Club)
+{
+	"activate_on_parsed": false,
+	"elements": [ {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_007",
+		"id": 101829,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 4556.7001953125,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 500,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101830
+			} ],
+			"position": "Vector3(1305, -3516, 80.0001)",
+			"radius": 250,
+			"rotation": "Rotation(0, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 5663.2998046875
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_007",
+		"id": 101830,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101294
+			}, {
+				"delay": 0,
+				"id": 102934
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "func_execute_in_other_mission_011",
+		"id": 101294,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(1225, -3650, 75)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAreaTrigger",
+		"editor_name": "trigger_area_012",
+		"id": 101307,
+		"module": "CoreElementArea",
+		"values": {
+			"amount": "1",
+			"base_delay": 0,
+			"depth": 708.04998779297,
+			"enabled": true,
+			"execute_on_startup": false,
+			"height": 500,
+			"instigator": "player",
+			"instigator_name": "",
+			"interval": 0.10000000149012,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101308
+			} ],
+			"position": "Vector3(3225, -5600, 550)",
+			"radius": 250,
+			"rotation": "Rotation(-180, 0, -0)",
+			"shape_type": "box",
+			"spawn_unit_elements": [],
+			"trigger_on": "on_enter",
+			"trigger_times": 1,
+			"use_disabled_shapes": false,
+			"width": 573.52099609375
+		}
+	}, {
+		"class": "ElementUnitSequence",
+		"editor_name": "func_sequence_003",
+		"id": 101308,
+		"module": "CoreElementUnitSequence",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(3325, -5600, 550)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"trigger_list": [ {
+				"id": 1,
+				"name": "run_sequence",
+				"notify_unit_id": 102556,
+				"notify_unit_sequence": "activate_door",
+				"time": 0
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_034",
+		"id": 102934,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102937
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_037",
+		"id": 102937,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102945
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_041",
+		"id": 102945,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102946
+			}, {
+				"delay": 0,
+				"id": 101390
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "logic_link_044",
+		"id": 102946,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementDialogue",
+		"editor_name": "func_dialogue_004",
+		"id": 101390,
+		"values": {
+			"base_delay": 0,
+			"dialogue": "pln_nightclub_stage1_04",
+			"enabled": true,
+			"execute_on_executed_when_done": false,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102788
+			} ],
+			"trigger_times": 0,
+			"use_instigator": false,
+			"use_position": false
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_005",
+		"id": 100991,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [],
+			"participate_to_group_ai": false,
+			"position": "Vector3(3275, -6900, 476.5)",
+			"rotation": "Rotation(3.07359e-005, -0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_006",
+		"id": 100994,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [],
+			"participate_to_group_ai": false,
+			"position": "Vector3(3375, -6600, 476.5)",
+			"rotation": "Rotation(90, -0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_007",
+		"id": 101100,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100578
+			} ],
+			"participate_to_group_ai": false,
+			"position": "Vector3(2900, -5825, 475)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_008",
+		"id": 101231,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [],
+			"participate_to_group_ai": false,
+			"position": "Vector3(3375, -6275, 475)",
+			"rotation": "Rotation(135, 0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_009",
+		"id": 101232,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [],
+			"participate_to_group_ai": false,
+			"position": "Vector3(3400, -5625, 475)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_010",
+		"id": 101233,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [],
+			"participate_to_group_ai": false,
+			"position": "Vector3(2925, -5400, 475)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_001",
+		"id": 101235,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_bank_2/civ_male_bank_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101248
+			} ],
+			"position": "Vector3(3125, -5600, 475)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "none",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_001",
+		"id": 101247,
+		"values": {
+			"SO_access": "1",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": false,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": true,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "run",
+			"path_stance": "cbt",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "crouch",
+			"position": "Vector3(3025, -5375, 475)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(3200, -5600, 475)",
+			"so_action": "cmf_so_panic",
+			"spawn_instigator_ids": [ 101235 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_002",
+		"id": 101248,
+		"values": {
+			"SO_access": "1",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": true,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(3125, -5600, 480.786)",
+			"repeatable": false,
+			"rotation": "Rotation(-180, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(3200, -5600, 475)",
+			"so_action": "cmf_so_answer_phone",
+			"spawn_instigator_ids": [ 101235 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementEnemyDummyTrigger",
+		"editor_name": "ai_enemy_trigger_016",
+		"id": 101250,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 101232, 100991, 101100, 100994, 101233 ],
+			"enabled": true,
+			"event": "death",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101247
+			} ],
+			"position": "Vector3(3200, -5750, 525)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "nightclub_boss_event_1_prep",
+		"id": 101251,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 101100
+			}, {
+				"delay": 0,
+				"id": 100994
+			}, {
+				"delay": 0,
+				"id": 100991
+			}, {
+				"delay": 0,
+				"id": 101235
+			}, {
+				"delay": 0,
+				"id": 101233
+			}, {
+				"delay": 0,
+				"id": 101232
+			}, {
+				"delay": 0,
+				"id": 101231
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_007",
+		"id": 100578,
+		"values": {
+			"SO_access": "132",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(2850, -5750, 477.123)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(2850, -5750, 477.123)",
+			"so_action": "e_so_ntl_smoke_stand",
+			"spawn_instigator_ids": [ 101100 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_008",
+		"id": 100588,
+		"values": {
+			"SO_access": "1",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "civilians",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": true,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "walk",
+			"path_stance": "ntl",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "stand",
+			"position": "Vector3(3150, -5650, 480.786)",
+			"repeatable": false,
+			"rotation": "Rotation(-180, 0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(3200, -5600, 475)",
+			"so_action": "cmf_so_talk",
+			"spawn_instigator_ids": [ 101235 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "nightclub_boss_event_1",
+		"id": 101314,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 100588
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "nightclub_boss_event_2_prep",
+		"id": 100880,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102088
+			}, {
+				"delay": 0,
+				"id": 102099
+			}, {
+				"delay": 0,
+				"id": 102086
+			}, {
+				"delay": 0,
+				"id": 102087
+			}, {
+				"delay": 1,
+				"id": 100879
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_002",
+		"id": 102086,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_bank_2/civ_male_bank_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2960, -6105, 475)",
+			"rotation": "Rotation(-90, 0, -0)",
+			"state": "cm_sp_sit_idle1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_003",
+		"id": 102087,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_female_party_1/civ_female_party_1",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(2960, -6052, 475)",
+			"rotation": "Rotation(129, 0, -0)",
+			"state": "cf_sp_dance_sexy",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_012",
+		"id": 102088,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102093
+			} ],
+			"participate_to_group_ai": false,
+			"position": "Vector3(3400, -6025, 475)",
+			"rotation": "Rotation(90, -0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_009",
+		"id": 102093,
+		"values": {
+			"SO_access": "132",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(3400, -6025, 475)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(3300, -6225, 475)",
+			"so_action": "e_so_ntl_smoke_stand",
+			"spawn_instigator_ids": [ 102088 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementSpecialObjective",
+		"editor_name": "point_special_objective_011",
+		"id": 102098,
+		"values": {
+			"SO_access": "132",
+			"action_duration_max": 0,
+			"action_duration_min": 0,
+			"ai_group": "enemies",
+			"align_position": true,
+			"align_rotation": true,
+			"attitude": "avoid",
+			"base_chance": 1,
+			"base_delay": 0,
+			"chance_inc": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"forced": false,
+			"interaction_voice": "none",
+			"interrupt_dis": -1,
+			"interrupt_dmg": 0,
+			"interrupt_objective": false,
+			"interval": -1,
+			"is_navigation_link": false,
+			"needs_pos_rsrv": true,
+			"no_arrest": false,
+			"on_executed": [],
+			"path_haste": "none",
+			"path_stance": "none",
+			"path_style": "destination",
+			"patrol_path": "none",
+			"pose": "none",
+			"position": "Vector3(3400, -7425, -25.0002)",
+			"repeatable": false,
+			"rotation": "Rotation(90, -0, -0)",
+			"scan": true,
+			"search_distance": 0,
+			"search_position": "Vector3(3300, -6225, 475)",
+			"so_action": "e_so_ntl_idle_tired",
+			"spawn_instigator_ids": [ 102099 ],
+			"trigger_on": "none",
+			"trigger_times": 0,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementSpawnEnemyDummy",
+		"editor_name": "ai_spawn_enemy_016",
+		"id": 102099,
+		"values": {
+			"accessibility": "any",
+			"amount": 0,
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"interval": 5,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102098
+			} ],
+			"participate_to_group_ai": false,
+			"position": "Vector3(3400, -7425, -25.0002)",
+			"rotation": "Rotation(90, -0, -0)",
+			"spawn_action": "none",
+			"team": "default",
+			"trigger_times": 0,
+			"voice": 0
+		}
+	}, {
+		"class": "ElementEnableUnit",
+		"editor_name": "func_enable_unit_005",
+		"id": 100879,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(3325, -6000, 525)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"unit_ids": [ 102094 ]
+		}
+	}, {
+		"class": "ElementSpawnCivilian",
+		"editor_name": "ai_spawn_civilian_004",
+		"id": 102151,
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"enemy": "units/payday2/characters/civ_male_bank_2/civ_male_bank_2",
+			"execute_on_startup": false,
+			"force_pickup": "none",
+			"on_executed": [],
+			"position": "Vector3(3200, -6475, 477.5)",
+			"rotation": "Rotation(-180, 0, -0)",
+			"state": "cm_sp_phone1",
+			"team": "default",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "nightclub_boss_event_3",
+		"id": 102155,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0.80000001192093,
+				"id": 102169
+			}, {
+				"delay": 0,
+				"id": 102176
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "MissionScriptElement",
+		"editor_name": "nightclub_boss_event_3_prep",
+		"id": 101195,
+		"module": "CoreMissionScriptElement",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 102151
+			}, {
+				"delay": 0,
+				"id": 102028
+			} ],
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementAIRemove",
+		"editor_name": "ai_remove_005",
+		"id": 102169,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 102151 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"force_ragdoll": false,
+			"on_executed": [],
+			"position": "Vector3(3325, -5850, 525)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0,
+			"true_death": true,
+			"use_instigator": false
+		}
+	}, {
+		"class": "ElementSmokeGrenade",
+		"editor_name": "point_smoke_grenade_002",
+		"id": 102176,
+		"values": {
+			"base_delay": 0,
+			"duration": 15,
+			"effect_type": "smoke",
+			"enabled": true,
+			"execute_on_startup": false,
+			"ignore_control": false,
+			"immediate": true,
+			"on_executed": [],
+			"position": "Vector3(3250, -6275, 500)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementExecuteInOtherMission",
+		"editor_name": "func_execute_in_other_mission_001",
+		"id": 102028,
+		"module": "CoreElementExecuteInOtherMission",
+		"values": {
+			"base_delay": 0,
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"position": "Vector3(3175, -5925, 525)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementDebug",
+		"editor_name": "point_debug_025",
+		"id": 102788,
+		"module": "CoreElementDebug",
+		"values": {
+			"as_subtitle": false,
+			"base_delay": 0,
+			"debug_string": "vo 4",
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"show_instigator": false,
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementEnemyDummyTrigger",
+		"editor_name": "ai_enemy_trigger_018",
+		"id": 103579,
+		"values": {
+			"base_delay": 0,
+			"elements": [ 101235 ],
+			"enabled": true,
+			"event": "death",
+			"execute_on_startup": false,
+			"on_executed": [ {
+				"delay": 0,
+				"id": 103581
+			} ],
+			"position": "Vector3(3100, -5750, 550)",
+			"rotation": "Rotation(0, 0, -0)",
+			"trigger_times": 0
+		}
+	}, {
+		"class": "ElementToggle",
+		"editor_name": "logic_toggle_091",
+		"id": 103581,
+		"module": "CoreElementToggle",
+		"values": {
+			"base_delay": 0,
+			"elements": [ 101250 ],
+			"enabled": true,
+			"execute_on_startup": false,
+			"on_executed": [],
+			"set_trigger_times": -1,
+			"toggle": "off",
+			"trigger_times": 0
+		}
+	} ],
+	"instances": []
+}

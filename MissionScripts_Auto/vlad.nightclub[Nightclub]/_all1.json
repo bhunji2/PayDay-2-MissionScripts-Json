@@ -1,0 +1,21 @@
+//Nightclub - 夜總會狂歡(Night Club)
+{
+	"background": {
+		"file": "background/background"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"kitchen": {
+		"file": "kitchen/kitchen"
+	},
+	"nightclub_interior": {
+		"file": "nightclub_interior/nightclub_interior"
+	},
+	"pc_only": {
+		"file": "pc_only/pc_only"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}

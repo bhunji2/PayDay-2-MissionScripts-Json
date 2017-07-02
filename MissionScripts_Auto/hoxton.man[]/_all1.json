@@ -1,0 +1,15 @@
+// - ERROR: heist_crime_spree
+{
+	"collision": {
+		"file": "collision/collision"
+	},
+	"editor_only": {
+		"file": "editor_only/editor_only"
+	},
+	"shadow_caster": {
+		"file": "shadow_caster/shadow_caster"
+	},
+	"world": {
+		"file": "world/world"
+	}
+}
